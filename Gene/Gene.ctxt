@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=Gene
 comment1.params=x
-comment1.target=void\ insereValorEstado(int)
-comment2.params=
-comment2.target=int\ retorna()
-comment3.params=gene2
-comment3.target=boolean\ Equals(Gene)
-numComments=4
+comment1.target=Gene(int)
+comment2.params=x
+comment2.target=void\ setAltera(int)
+comment3.params=
+comment3.target=int\ getGene()
+comment4.params=gene2
+comment4.target=boolean\ equals(Gene)
+comment5.params=
+comment5.target=Gene\ clonar()
+numComments=6
