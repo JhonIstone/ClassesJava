@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Cromossomo
+comment1.params=size
+comment1.target=Cromossomo(int)
+comment2.params=valores
+comment2.target=Cromossomo(java.lang.String)
+comment3.params=
+comment3.target=int\ size()
+comment4.params=pos
+comment4.target=Gene\ getGene(int)
+comment5.params=pos\ gene
+comment5.target=void\ setGene(int,\ Gene)
+comment6.params=
+comment6.target=Cromossomo\ clonar()
+comment7.params=cromo
+comment7.target=double\ getSimilaridade(Cromossomo)
+comment8.params=ponto\ cromo
+comment8.target=void\ singlePointCrossover(int,\ Cromossomo)
+numComments=9

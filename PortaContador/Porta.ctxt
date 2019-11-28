@@ -1,11 +1,9 @@
 #BlueJ class context
 comment0.target=Porta
-comment1.params=aberta
-comment1.target=Porta(boolean)
-comment2.params=aberta
-comment2.target=void\ setabrir(boolean)
+comment1.params=
+comment1.target=void\ abrir()
+comment2.params=
+comment2.target=void\ fechar()
 comment3.params=
-comment3.target=void\ setfechar()
-comment4.params=
-comment4.target=boolean\ isAberta()
-numComments=5
+comment3.target=boolean\ estaAberta()
+numComments=4

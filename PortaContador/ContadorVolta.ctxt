@@ -1,11 +1,9 @@
 #BlueJ class context
 comment0.target=ContadorVolta
 comment1.params=
-comment1.target=void\ getcontar()
-comment2.params=x
-comment2.target=void\ getAdd(int)
+comment1.target=void\ contar()
+comment2.params=
+comment2.target=void\ zerar()
 comment3.params=
-comment3.target=void\ setzerar()
-comment4.params=
-comment4.target=int\ getbuscarValor()
-numComments=5
+comment3.target=int\ buscarValor()
+numComments=4

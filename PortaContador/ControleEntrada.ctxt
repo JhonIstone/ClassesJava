@@ -1,13 +1,11 @@
 #BlueJ class context
 comment0.target=ControleEntrada
 comment1.params=
-comment1.target=ControleEntrada()
+comment1.target=void\ abrir()
 comment2.params=
-comment2.target=void\ getabrir()
+comment2.target=void\ fechar()
 comment3.params=
-comment3.target=void\ setfechar()
+comment3.target=void\ reset()
 comment4.params=
-comment4.target=void\ reset()
-comment5.params=
-comment5.target=int\ getbuscarQtdeAberturas()
-numComments=6
+comment4.target=int\ buscarQtdeAberturas()
+numComments=5

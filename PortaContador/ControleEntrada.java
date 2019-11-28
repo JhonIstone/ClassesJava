@@ -1,29 +1,25 @@
-public class ControleEntrada{
-    Porta porta = new Porta(false);
+class ControleEntrada{
+    Porta porta = new Porta();
     ContadorVolta contador = new ContadorVolta();
     
-    public ControleEntrada(){
-        this.porta = new Porta(false);
-        this.contador = new ContadorVolta();
+    void abrir(){
+        if(!porta.estaAberta())
+          contador.contar();
+        porta.abrir();  
     };
     
-    public void getabrir(){
-        if(!porta.isAberta())
-          this.contador.getcontar();
-        this.porta.setabrir(true);
-    };
-   
-    public void setfechar(){
-        this.porta.setfechar();
+    
+    void fechar(){
+        porta.fechar();
     };
     
-    public void reset(){
-        this.porta.setfechar();
-        this.contador.setzerar();
+    void reset(){
+        porta.fechar();
+        contador.zerar();
     };    
     
-    public int getbuscarQtdeAberturas(){
-        return this.contador.getbuscarValor();
+    int buscarQtdeAberturas(){
+        return contador.buscarValor();
     };    
     
 }

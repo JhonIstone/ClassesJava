@@ -1,20 +1,16 @@
-public class Porta{
-    private boolean aberta = false;
+class Porta{
+    boolean aberta;
     
-    public Porta(boolean aberta){
-        this.setabrir(aberta);
-    };
-    
-    public void setabrir(boolean aberta){
-      this.aberta = aberta;  
+    void abrir(){
+      aberta = true;  
     };    
     
-    public void setfechar(){
-      this.aberta = false;  
+    void fechar(){
+      aberta = false;  
     };    
     
     
-    public boolean isAberta(){
+    boolean estaAberta(){
         return aberta;
     };    
     
