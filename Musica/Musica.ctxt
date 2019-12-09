@@ -1,9 +1,12 @@
 #BlueJ class context
 comment0.target=Musica
+comment0.text=\r\nPara\ o\ site\ de\ stream\ de\ m\u00FAsicas,\ cada\ m\u00FAsica\ \u00E9\ representada\ pelo\ seu\ t\u00EDtulo,\ pela\ lista\ de\ nome\ de\ artistas\ (que\ participam\r\nda\ m\u00FAsica),\ pela\ dura\u00E7\u00E3o\ da\ m\u00FAsica\ em\ segundos,\ pelo\ g\u00EAnero,\ pelo\ campo\ harm\u00F4nico\ da\ faixa\ (um\ dos\ seguintes\ valores\:\ C\r\n\=\ D\u00F3,\ D\ \=\ R\u00E9\ maior,\ E\ \=\ Mi\ maior,\ F\ \=\ F\u00E1\ maior,\ G\ \=\ Sol\ maior,\ A\ \=\ L\u00E1\ maior\ e\ B\ \=\ Si\ maior)\ e\ pelo\ nome\ da\ gravadora.\r\nForne\u00E7a\:\r\n1)\ (0.5)\ a\ estrutura\ est\u00E1tica\ da\ classe\ M\u00FAsica.\r\n2)\ (0.5)\ um\ membro\ que\ inicialize\ a\ M\u00FAsica.\ Este\ membro\ deve\ garantir\ que\ todos\ os\ valores\ da\ m\u00FAsica\ sejam\r\ninicializados.\ Nenhum\ dos\ valores\ pode\ ser\ posteriormente\ alterado.\r\n3)\ (1.5)\ um\ membro\ que\ verifique\ se\ duas\ m\u00FAsicas\ s\u00E3o\ iguais.\ M\u00FAsicas\ s\u00E3o\ iguais\ se\ seus\ nomes\ s\u00E3o\ iguais\ e\ a\ lista\ de\r\nnome\ de\ seus\ artistas\ \u00E9\ coincidente.\r\n4)\ (2.0)\ um\ membro\ que\ calcule\ a\ proximidade\ de\ duas\ m\u00FAsicas.\ A\ proximidade\ duas\ m\u00FAsicas\ \u00E9\ um\ valor\ de\ 0\ a\ 4,\r\ncalculado\ da\ forma\ que\ se\ segue\:\ +1,\ quando\ o\ campo\ harm\u00F4nico\ da\ faixa\ da\ m\u00FAsica\ \u00E9\ coincidente;\ +1,\ quando\ a\r\ngravadora\ \u00E9\ a\ mesma;\ +1\ quando\ as\ m\u00FAsicas\ s\u00E3o\ do\ mesmo\ g\u00EAnero\ e\ percentualmente\ um\ valor\ entre\ [0-1]\ que\r\nmostra\ a\ quantidade\ de\ artistas\ que\ coincidem\ nas\ duas\ faixas.\ \r\n
 comment1.params=titulo\ numeroArtistas\ artistas\ duracao\ campoH\ genero\ gravadora
 comment1.target=Musica(java.lang.String,\ int,\ java.lang.String[],\ double,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment10.params=outra
-comment10.target=double\ proximidade(Musica)
+comment10.target=boolean\ equals(Musica)
+comment11.params=outra
+comment11.target=double\ proximidade(Musica)
 comment2.params=titulo
 comment2.target=void\ setTitulo(java.lang.String)
 comment3.params=duracao
@@ -18,6 +21,6 @@ comment7.params=gravadora
 comment7.target=void\ setGravadora(java.lang.String)
 comment8.params=
 comment8.target=int\ getNumeroartistas()
-comment9.params=outra
-comment9.target=boolean\ equals(Musica)
-numComments=11
+comment9.params=
+comment9.target=java.lang.String\ getNomeMusica()
+numComments=12
