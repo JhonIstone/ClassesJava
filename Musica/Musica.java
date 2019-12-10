@@ -18,13 +18,13 @@ public class Musica
 {
     private String titulo = new String();
     private String[] artistas;
-    private double duracao;
-    private String campoH = new String();
+    private long duracao;
+    private char campoH;
     private String genero = new String();
     private String gravadora = new String();
     
-    public Musica (String titulo,int numeroArtistas, String[] artistas, double duracao, String campoH, String genero, String gravadora){
-        this.setArtistas(numeroArtistas, artistas);
+    public Musica (String titulo, String[] artistas, long duracao, char campoH, String genero, String gravadora){
+        this.setArtistas(artistas);
         this.setCampoHarmonico(campoH);
         this.setDuracao(duracao);
         this.setGenero(genero);
@@ -36,17 +36,15 @@ public class Musica
         this.titulo = titulo;
     }
     
-    private void setDuracao (double duracao){
+    private void setDuracao (long duracao){
         this.duracao = duracao;
     }
     
-    private void setArtistas (int numeroArtistas, String[] artistas){
-        this.artistas = new String[numeroArtistas];
-        for (int i = 0; i < numeroArtistas; i++)
-            this.artistas[i] = artistas[i];
+    private void setArtistas (String[] artistas){
+        this.artistas = artistas;
     }
     
-    private void setCampoHarmonico (String campoH){
+    private void setCampoHarmonico (char campoH){
         this.campoH = campoH;
     }
     
@@ -78,7 +76,7 @@ public class Musica
         return false;
     }
     
-    public double proximidade (Musica outra){
+    public double getProximidade (Musica outra){
         double proximidade = 0;
         double aux = 0;
         

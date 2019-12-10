@@ -10,7 +10,11 @@ public class Playlist
     private Musica[] musicas = new Musica[0];
     
     public Playlist(String nome){
-         this.nome = nome;
+        this.setNome(nome);
+    }
+
+    private void setNome(String nome){
+        this.nome = nome;
     }
     
     public void setPlaylist (Musica musica){
